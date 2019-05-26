@@ -75,7 +75,12 @@
       	M.Sidenav.init(sideNav);
 
       	const slider = document.querySelectorAll('.slider');
-      	M.Slider.init(slider);
+      	M.Slider.init(slider, {
+      		indicators: false,
+      		height: 500,
+      		transition: 600,
+      		interval: 300
+      	});
       </script>
     </body>
   </html>
